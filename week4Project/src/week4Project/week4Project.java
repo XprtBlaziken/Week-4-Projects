@@ -1,7 +1,8 @@
 package week4Project;
 
 public class week4Project {
-	/*Question 1 */
+	
+	//Question 1 //
 	public static void main(String[] args) {
 	int[] ages = {3, 9, 23, 64, 2, 8, 28, 93};
 	int[] ages2 = new int[9];
@@ -28,21 +29,61 @@ public class week4Project {
 		}
 		return average / names.length;
 	}
-	//Question 10//
-	public static void main3(String[] args) {
-		
+	//Question 3//
+	public static int con(String word, int n) {
+		return word.length() * n;
 	}
-	//Question 11//	
+	//Question 5//
+	public static boolean numbers(int[] numbers) {
+		int sum = 0;
+		if(int i = 0 , i < numbers.length; i++){
+			sum += numbers[i];
+		}
+		if(sum == 100) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	//Question 6//
+	public static double average(double[] array) {
+		double sum = 0;
+		for (double number : array) {
+			sum += number;
+		}
+		return sum / array.length;
+	}
+	//Question 7//
+	public static boolean average2(double[] array, double[] array2) {
+		double sum = 0;
+		double sum2 = 0;
+		for (double number : array) {
+			sum += number;
+		}
+		for(double number2 : array2) {
+			sum2 += number2;
+		}
+		if(sum < sum2) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	//Question 4//	
 	public static String main2(String firstName, String lastName) {
 		
 		String fullName = firstName + lastName;
 		return fullName;
 	}
-	//Question 12//
+	//Question 8//
 	public static boolean willBuyDrink(boolean isHotOutside, double moneyInTheBank) {
 	
 		
 		return isHotOutside = true && moneyInTheBank >= 10.50;
+		
+	}
+	//Question 9//
+	public static void myChoice() {
 		
 	}
 }
