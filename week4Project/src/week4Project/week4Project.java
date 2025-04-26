@@ -83,7 +83,13 @@ public class week4Project {
 		
 	}
 	//Question 9//
-	public static void myChoice() {
-		
+	public static boolean myChoice(int number, String dogBreed) {
+		number = 3;
+		dogBreed = "Shih-Tzu";
+		if(number < 4 && dogBreed == "Shih-tzu" || dogBreed == "Golden Retriever") {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
