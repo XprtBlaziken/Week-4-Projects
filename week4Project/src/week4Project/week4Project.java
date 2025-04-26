@@ -36,7 +36,7 @@ public class week4Project {
 	//Question 5//
 	public static boolean numbers(int[] numbers) {
 		int sum = 0;
-		if(int i = 0 , i < numbers.length; i++){
+		for(int i = 0; i < numbers.length; i++){
 			sum += numbers[i];
 		}
 		if(sum == 100) {
